@@ -43,26 +43,26 @@ console.log("second number subract first numb :",firstSubFromSecondNum);
 
 // Part 2 -------------------------------------------------------------------------
 // practice math
-const speed1=55;
-const speed2=60;
-const speed3=75;
+const speed155=30;
+const speed260=28;
+const speed375=23;
 
 const totalbudget=175;
-const totalMile=15000;
+const totalMile=1500;
 const fuelPerGallon=3;
 let budget;
 
 // case one at 55mile perhour
-let gallonWith55millPer=totalMile/speed1;
+let gallonWith55millPer=totalMile/speed155;
 console.log("total gallon with 55 mile per hours ?",gallonWith55millPer)
-let gallonWith60milePer=totalMile/speed2;
+let gallonWith60milePer=totalMile/speed260;
 console.log("total gallewith60milePer hour :",gallonWith60milePer)
-let gallewith75milePer=totalMile/speed3;
+let gallewith75milePer=totalMile/speed375;
 console.log("gallon with 75mile per hour :",gallewith75milePer);
 // 
 // budget=gallon*3;
 let budgetOne=gallonWith55millPer*3;
-let isBudgetEnough=budget==budgetOne;
+let isBudgetEnough=(totalbudget==budgetOne) || (totalbudget>budgetOne);
 // speed 1
 console.log(budgetOne+" is budget enough ?",isBudgetEnough);
 
